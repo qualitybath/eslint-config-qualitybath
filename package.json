@@ -1,0 +1,20 @@
+{
+	"name": "eslint-config-qualitybath",
+	"version": "1.0.0",
+	"description": "The QualityBath.com default eslint configuration",
+	"main": "index.js",
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config"
+	],
+	"author": "Mordy Tikotzky <mordyt@qualitybath.com>",
+	"homepage": "https://github.com/qualitybath/eslint-config-qualitybath",
+	"repository": "https://github.com/qualitybath/eslint-config-qualitybath",
+	"bugs": {
+		"url": "https://github.com/qualitybath/eslint-config-qualitybath/issues"
+	},
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {}
+}
