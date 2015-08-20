@@ -1,23 +1,30 @@
 {
-	"name": "eslint-config-qualitybath",
-	"version": "1.0.1",
-	"description": "The QualityBath.com default eslint configuration",
-	"main": "index.js",
-	"keywords": [
-		"eslint",
-		"eslintconfig",
-		"eslint-config"
-	],
-	"author": "Mordy Tikotzky <mordyt@qualitybath.com>",
-	"homepage": "https://github.com/qualitybath/eslint-config-qualitybath",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/qualitybath/eslint-config-qualitybath"
-	},
-	"bugs": {
-		"url": "https://github.com/qualitybath/eslint-config-qualitybath/issues"
-	},
-	"license": "MIT",
-	"dependencies": {},
-	"devDependencies": {}
+  "name": "eslint-config-qualitybath",
+  "version": "1.0.1",
+  "description": "The QualityBath.com default eslint configuration",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "author": "Mordy Tikotzky <mordyt@qualitybath.com>",
+  "homepage": "https://github.com/qualitybath/eslint-config-qualitybath",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qualitybath/eslint-config-qualitybath"
+  },
+  "bugs": {
+    "url": "https://github.com/qualitybath/eslint-config-qualitybath/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^4.0.10",
+    "eslint": "^1.2.0",
+    "eslint-config-defaults": "^4.2.0",
+    "eslint-config-qualitybath": "*",
+    "eslint-plugin-filenames": "^0.1.2",
+    "eslint-plugin-react": "^3.2.3"
+  }
 }
