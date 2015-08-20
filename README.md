@@ -14,6 +14,6 @@ Just add the extends attribute to your .eslintrc.
 
 ```json
 {
-	"extends": ["qualitybath"],
+	"extends": ["qualitybath"]
 }
 ```
