@@ -5,6 +5,7 @@ module.exports = {
 	},
 	plugins: ['filenames'],
 	rules: {
+		// Use tab for indentation http://lea.verou.me/2012/01/why-tabs-are-clearly-superior/
 		indent: [2, 'tab'],
 		// Enforce that filenames are camelcase
 		'filenames/filenames': 2,
