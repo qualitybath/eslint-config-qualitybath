@@ -8,6 +8,6 @@ module.exports = {
 	"plugins": ["filenames"],
 	"rules" : {
 		"indent": [2, "tab"],
-    "filenames/filenames": 2
+	"filenames/filenames": 2
 	}
 }

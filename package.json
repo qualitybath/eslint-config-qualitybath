@@ -10,7 +10,10 @@
 	],
 	"author": "Mordy Tikotzky <mordyt@qualitybath.com>",
 	"homepage": "https://github.com/qualitybath/eslint-config-qualitybath",
-	"repository": "https://github.com/qualitybath/eslint-config-qualitybath",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qualitybath/eslint-config-qualitybath"
+	},
 	"bugs": {
 		"url": "https://github.com/qualitybath/eslint-config-qualitybath/issues"
 	},
