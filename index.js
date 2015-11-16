@@ -10,7 +10,7 @@ module.exports = {
 		// allow anonymous functions
 		'func-names': 0,
 		// Enforce that filenames are camelcase
-		'filenames/filenames': 2,
+		'filenames/filenames': [2, "^[a-z\-]+$"],
 		// Prevent missing displayName in a React component definition
 		'react/display-name': 2,
 		// Prevent duplicate props in JSX
