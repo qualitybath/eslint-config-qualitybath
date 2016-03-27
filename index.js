@@ -6,6 +6,9 @@ module.exports = {
 	},
 	plugins: ['filenames'],
 	rules: {
+		// enforces no braces where they can be omitted
+		// http://eslint.org/docs/rules/arrow-body-style
+		'arrow-body-style': [1, 'as-needed'],
 		// allow anonymous functions
 		'func-names': 0,
 		// Enforce that filenames are camelcase
