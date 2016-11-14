@@ -29,6 +29,8 @@ module.exports = {
 		'react/prefer-es6-class': 0,
 		// Require stateless functions when not using lifecycle methods, setState or ref
 		'react/prefer-stateless-function': 1,
+		// allow calling setState in componentDidMount
+		'react/no-did-mount-set-state': 0,
 		// require or disallow space before function opening parenthesis
 		// https://github.com/eslint/eslint/blob/master/docs/rules/space-before-function-paren.md
 		'space-before-function-paren': [2, 'never'],
