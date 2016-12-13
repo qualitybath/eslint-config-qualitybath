@@ -9,7 +9,7 @@ module.exports = {
 		// allow anonymous functions
 		'func-names': 0,
 		// Enforce that filenames are camelcase
-		'filenames/filenames': [2, '^[A-Za-z\.][A-Za-z\d\-\.]+$'],
+		'filenames/filenames': [2, '^[A-Za-z\.][A-Za-z0-9\-\.]+$'],
 		// specify the maximum length of a line in your program`
 		'max-len': [2, 120, 2, {
 			'ignoreUrls': true,
