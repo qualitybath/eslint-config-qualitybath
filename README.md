@@ -5,7 +5,7 @@
 Install this config package and all its dependencies:
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-config-qualitybath eslint-plugin-filenames eslint-plugin-react
+npm install --save-dev babel-eslint eslint eslint-config-airbnb eslint-plugin-filenames eslint-plugin-import eslint-plugin-jsx-a11y eslint-config-qualitybath eslint-plugin-react
 ```
 
 ## Usage
